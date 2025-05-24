@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Web Dev</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f8f7f3;
+      color: #333;
+    }
+
+    header {
+      background-color: #c29a6b;
+      padding: 1rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      gap: 2rem;
+    }
+
+    .main-content {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h2 {
+      color: #b18048;
+      margin-bottom: 0.5rem;
+    }
+
+    .card a {
+      color: #b18048;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sidebar {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .widget {
+      background-color: #fff;
+      padding: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .widget h3 {
+      color: #d7a879;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      background-color: #b18048;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">The Web Dev</div>
+      <ul>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/HOME.html">Home</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/ABOUT%20ME%202.html">About</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/CONTACT.html">Contact</a></li>
+		<li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/GALLERY/Gallery.html">Gallery</a></li>
+		<li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/MODELS.html">Models</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/Dashboard.html">Dashboard</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="main-content">
+      <article class="card">
+        <h2>Skincare Must Haves</h2>
+        <p>Explore the best skincare products to enhance your natural beauty, including Moisturizers, cleansers, SPF, serums, toners.</p>
+        <a href="#">Read More</a>
+      </article>
+
+      <article class="card">
+        <h2>Haircare Must Haves</h2>
+        <p>Discover the best Haircare including Shampoos, conditioners, styling gels, and hair oils .</p>
+        <a href="#">Read More</a>
+      </article>
+
+      <article class="card">
+        <h2> Wardrobe Essentials</h2>
+        <p>From minimalist designs to statement pieces, discover the Neutral tops, statement coats, jeans, blazers, capsule wardrobe picks and trends of the year that will elevate your look.</p>
+        <a href="#">Read More</a>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>About Me</h3>
+        <p>Hello! I'm Mary Mitzi Capistrano  a  fashion lover, makeup artist, and student. I write about fashion, makeup, and jewelry trends and tips to help others feel great. Because I believe style is about confidence, not labels. When I’m not blogging, I’m sipping iced coffee or trying a new skincare mask!</p>
+      </div>
+
+      <div class="widget">
+        <h3>Something New!!</h3>
+        <p> New season, new you! Explore the coolest fashion finds and beauty tips that help you show off your style in your own unique way. Whether it’s a pop of color or a fresh outfit combo, let’s keep things fresh, fun, and totally you. </p>
+      </div>
+
+      <footer class="footer">
+        © 2024 The Web Dev. All rights reserved.
+      </footer>
+    </aside>
+  </main>
+
+</body>
+</html>

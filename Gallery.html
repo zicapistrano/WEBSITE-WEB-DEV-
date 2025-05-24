@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Web Dev</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8f9dc;
+            color: #333;
+        }
+
+        header {
+            background-color: #e2bb86;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #f3d9a7;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: white;
+            color: #444;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e2bb86;
+            color: white;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .photo {
+            margin: 10px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 200px;
+            text-align: center;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #e2bb86;
+            text-align: center;
+            padding: 15px 0;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Web Dev</h1>
+        <p>IT SPECIALIST</p>
+    </header>
+
+    <nav>
+        <ul>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/HOME.html">Home</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/ABOUT%20ME%202.html">About</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/CONTACT.html">Contact</a></li>
+		<li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/GALLERY/Gallery.html">Gallery</a></li>
+		<li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/MODELS.html">Models</a></li>
+        <li><a href="file:///C:/Users/Mitzi%20Capistrano/Desktop/Dashboard.html">Dashboard</a></li>
+  
+        </ul>
+    </nav>
+
+    <main class="gallery">
+        <div class="photo"><img src="skincare.jpg" alt="skincare"></div>
+        <div class="photo"><img src="haircare.jpg" alt="haircare"></div>
+        <div class="photo"><img src="wardrobe.jpg" alt="wardrobe"></div>
+        <div class="photo"><img src="essentials.jpg" alt="essentials"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Web Dev. All rights reserved.</p>
+    </footer>
+</body>
+</html>
